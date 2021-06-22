@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box {
+    width: 10rem;
+    height: 10rem;
+    border: 1px solid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.hide {
+    display: none;
+}
+
+.context-menu {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+}
+
+.context-menu > ul > li {
+    list-style: none;
+    border: 1px solid;
+    padding: 1rem;
+    background: white;
+    cursor: pointer;
+}
+
+.context-menu > ul > li:hover {
+    background: lightblue;
+}
